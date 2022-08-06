@@ -14,12 +14,12 @@
     <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb"/>
 </p>
 
-<h3 align="center"><a href="https://e-store-01.netlify.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://ecom101.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center"> 
     <br />&#10023;
     <a href="#Demo">View Demo</a>   &#10023;  
-    <a href="https://github.com/murali0101/E-Store-Front-End-/issues">Report Bug</a>    &#10023;
+    <a href="https://github.com/anupamsukla/ecom/issues">Report Bug</a>    &#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
     <a href="#Author">Author</a> &#10023;
   </p>
@@ -121,21 +121,14 @@ This project was built using React v 18.2.0, Redux v 4.2.0, Chakra UI, CSS, Java
 
 ### Setup
 
-The project repository can be found in [E-Store-Front-End- GitHub link](https://github.com/murali0101/E-Store-Front-End-) and [ E-Store-Back-End- GitHub link](https://github.com/murali0101/-E-Store-Back-End-) or just clone the project using this command.
+The project repository can be found in [E-Store-Front-End- GitHub link](https://github.com/anupamsukla/ecom) and [ E-Store-Back-End- GitHub link](https://github.com/anupamsukla/ecomserver) or just clone the project using this command.
 
 ```
 Using HTTPS
 
-# git clone https://github.com/murali0101/E-Store-Front-End-.git
+# git clone https://github.com/anupamsukla/ecom
 
-# git clone https://github.com/murali0101/-E-Store-Back-End-.git
-```
-
-- Open terminal on your workspace with
-
-```
-cd /home/workspace/E-Store-Front-End-.git
-```
+# git clone https://github.com/anupamsukla/ecomserver
 
 ## Install
 
@@ -146,50 +139,54 @@ Check that you have node and npm installed
 To check if you have Node.js installed, run this command in your terminal:
 
 ```
+
 node -v
+
 ```
 
 To confirm that you have npm installed you can run this command in your terminal:
 
 ```
+
 npm -v
+
 ```
 
 To confirm that you have MongoDB installed you can run this command in your terminal:
 
 ```
+
 mongo -v
+
 ```
 
 To install all the dependences of the project, run the following command:
 
 ```
-cd E-Store-Front-End-
+
+cd ecom
 
 npm install
 
 cd ../
 
-cd E-Store-Back-End-
+cd ecomserever
 
 npm install
+
 ```
 
 To run the application got to the client folder and run the following command:
 
 ```
+
 npm start
+
 ```
 
 ### Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file in server folder
-
-`MONGO_USER_NAME`
-
-`MONGO_PASSWORD`
-
-`MONGO_DB_NAME`
 
 `JWT_SECRET_KEY`
 
@@ -198,3 +195,4 @@ To run this project, you will need to add the following environment variables to
 - Visual Studio Code
 - create-react-app template
 - MongoDB compass
+```
