@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <Flex h={'160px'} bg={'#1a202c'} color={'white'} justify={'center'} mt={20}>
             <VStack>
-                <Text my={'26px'}>Made with ❤️ by Murali M V</Text>
+                <Text my={'26px'}>Made with ❤️ by Anupam Anand</Text>
                 <HStack>
                     <Button variant={'solid'} bg={'#0863be'} size='sm' leftIcon={<FaLinkedin />}>
                         <Link _hover={{ 'textDecoration': 'none' }} target={"_blank"} href={"https://www.linkedin.com/in/anupam-anand-a0802791/"}>LinkedIn</Link>
